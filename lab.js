@@ -30,9 +30,9 @@ var brittanisBirthYear = 1986;
 if (amysAge > brittanisAge){
   console.log(`Amy is older`);
 } else if (brittanisAge > amysAge){
-  console.log(`Brittanis is older`);
+  console.log(`Brittani is older`);
 } else if(amysAge === brittanisAge){
-  console.log(`Amy and Brittanis are the same age`);
+  console.log(`Amy and Brittani are the same age`);
 }
 ////////// PROBLEM 3 //////////
 
@@ -41,7 +41,11 @@ if (amysAge > brittanisAge){
 */
 
 //CODE HERE
-
+if (amysBirthYear === brittanisBirthYear){
+  console.log(`Amy and Brittani were born in the same year`);
+} else{
+  console.log(`Amy and Brittani were not born in the same year`);
+}
 ////////// PROBLEM 4 //////////
 
 let temperature = 55;
