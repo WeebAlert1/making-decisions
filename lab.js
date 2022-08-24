@@ -7,12 +7,12 @@
 */
 
 //CODE HERE
-/*let lovesCode = true;
+let lovesCode = true;
 if (lovesCode === true){
   console.log(`I love to code!`);
 } else{
   console.log("Coding has its challenges.");
-}*/
+}
 
 // For problems 2-3 use the following lines of code:
 var amysAge = 29;
@@ -57,7 +57,21 @@ let rain = true;
 */
 
 //CODE HERE
+if (rain === true && temperature > 80){
+  console.log(`Wear a T-shirt and an umbrella.`);
+} else if(rain === true && temperature <= 80 && temperature > 60){
+  console.log(`wear a rain-jacket.`);
+} else if (rain === true && temperature <= 60){
+  console.log(`Were a warm jacket with an umberlla.`);
+}
 
+if (rain !== true && temperature > 80){
+  console.log(`were light clothing, it's gonna be hot!`);
+} else if(rain !== true && temperature <= 80 && temperature > 60){
+  console.log(`Were normal street clothes. It's a nice day!`);
+}else if(rain !== true && temperature < 60){
+  console.log(`bring a jacket or a hoodie, it might be chilly!`);
+}
 ////////// PROBLEM 5 //////////
 
 /*
